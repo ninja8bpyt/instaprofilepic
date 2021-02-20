@@ -25,7 +25,7 @@ def handle(msg):
 
 
 if __name__ == "__main__":
-    TOKEN = 'TELEGRAM_BOT_TOKEN'
+    TOKEN = '1621579321:AAGGmOi7Hs1nJj7xRNE4pz57qVKHxd66Be8'
     START_COMMAND = '/start'
     bot = Bot(TOKEN)
     bot.message_loop(handle)
